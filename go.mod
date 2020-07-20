@@ -15,5 +15,3 @@ require (
 	github.com/sirupsen/logrus v1.4.1 // indirect
 	golang.org/x/text v0.3.2 // indirect
 )
-
-replace github.com/siddontang/go-mysql v0.0.0-20200622032841-a8c16ae9a9cb => github.com/aheimburger/go-mysql v0.0.0-20200622032841-a8c16ae9a9cb
