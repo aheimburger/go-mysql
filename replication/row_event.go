@@ -1167,12 +1167,12 @@ func decodeString(data []byte, length int) (v string, n int) {
 
 		n = int(length) + 1
 		//v = hack.String(data[1:n])
-        v = String([]byte(date[1:n]))
+        v = string([]byte(data[1:n]))
 	} else {
 		length = int(binary.LittleEndian.Uint16(data[0:]))
 		n = length + 2
 		//v = hack.String(data[2:n])
-        v = String([]byte(date[2:n]))
+        v = string([]byte(data[2:n]))
 	}
 
 	return
